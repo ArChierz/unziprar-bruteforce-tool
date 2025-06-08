@@ -27,6 +27,7 @@ sudo pacman -S unrar
 ```
 
 # Example Usage
+```
 usage: main.py [-h] -a ARCHIVE [-P PASSWORD] [-w WORDLIST] [-x] [-p PATH]
 
 ZIP/RAR Password Brute Forcer and Extractor Tool
@@ -41,7 +42,7 @@ options:
                         Path to the password wordlist file
   -x, --extract         Extract Archived Content, provide the option without value is enough
   -p PATH, --path PATH  Specify which path to extract the output
-
+```
 
 **HELP**
 ```
